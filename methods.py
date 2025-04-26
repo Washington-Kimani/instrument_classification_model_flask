@@ -1,5 +1,7 @@
 import tensorflow as tf
-
+from tensorflow import keras
+from tensorflow.keras.models import load_model
+import numpy as np
 
 # load the model
 model = load_model(os.path.join('models', 'instrument_classification.h5'))
